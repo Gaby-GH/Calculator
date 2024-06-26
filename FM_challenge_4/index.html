@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" id="link_css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div id="div_main">
+    <div id="div_1">
+      <div>
+        <p id="p_calc">calc</p>
+      </div>
+
+      <div id="div_main_left">
+        <p id="p_theme">THEME</p>
+        <div id="div_radio">
+          <label for="theme_1">1</label>
+          <input type="radio" name="" id="theme_1" class="radio" checked>
+
+          <label for="theme_2">2</label>
+          <input type="radio" id="theme_2" name="" class="radio">
+
+          <label for="theme_3">3</label>
+          <input type="radio" id="theme_3" name="" class="radio">
+        </div>
+      </div>
+    </div>
+
+    <div id="div_2">
+      <p id="p_div_2"></p>
+    </div>
+
+    <div id="div_3">
+      <div id="div_table">
+        <table>
+          <tr>
+            <td><button id="btn_7"><p>7</p></button></td>
+            <td><button id="btn_8"><p>8</p></button></td>
+            <td><button id="btn_9"><p>9</p></button></td>
+            <td><button id="btn_del"><p>DEL</p></button></td>
+          </tr>
+          <tr>
+            <td><button id="btn_4"><p>4</p></button></td>
+            <td><button id="btn_5"><p>5</p></button></td>
+            <td><button id="btn_6"><p>6</p></button></td>
+            <td><button id="btn_plus"><p>+</p></button></td>        
+          </tr>
+          <tr>
+            <td><button id="btn_1"><p>1</p></button></td>
+            <td><button id="btn_2"><p>2</p></button></td>
+            <td><button id="btn_3"><p>3</p></button></td>
+            <td><button id="btn_moins"><p>-</p></button></td>        
+          </tr>
+          <tr>
+            <td><button id="btn_,"><p>.</p></button></td>          
+            <td><button id="btn_0"><p>0</p></button></td>
+            <td><button id="btn_division"><p>/</p></button></td>          
+            <td><button id="btn_multiplication"><p>x</p></button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="big_btn" id="btn_reset"><p>RESET</p></button></td>
+            <td colspan="2"><button class="big_btn" id="btn_egal"><p>=</p></button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>  
+ 
+</body>
+</html>
