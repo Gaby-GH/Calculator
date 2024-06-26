@@ -6,7 +6,7 @@
   }
   
   body{
-      background-color: hsl(222, 26%, 31%);
+      background-color: hsl(268, 75%, 9%);
   }
   
   p{
@@ -29,14 +29,14 @@
       position: relative;
       bottom: 28px;
       left: 10px;
-      color: white;
+      color: hsl(52, 100%, 62%);
   }
   
   input[type="radio"]{
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
-  
+      
       border-radius: 50%;
       width: 16px;
       height: 16px;
@@ -44,7 +44,7 @@
   }
   
   input[type="radio"]:checked{
-      background-color: hsl(6, 63%, 50%);
+      background-color: hsl(176, 100%, 44%);
   }
   
   #div_radio{
@@ -52,21 +52,21 @@
       justify-content: space-around;
       width: 65px;
       margin-left: 14px;
-      background-color: hsl(223, 31%, 20%);
+      background-color: hsl(268, 71%, 12%);
       padding: 10px;
       border-radius: 25px;
   }
   
   #p_calc{
       font-size: 40px;
-      color: hsl(30, 25%, 89%);
+      color: hsl(52, 100%, 62%);
       margin: 20px;
       margin-left: 0px;
   }
   
   #p_theme{
       font-size: 12px;
-      color: hsl(30, 25%, 89%);
+      color: hsl(52, 100%, 62%);
   }
   
   #div_main_left{
@@ -77,7 +77,7 @@
   }
   
   #div_2{
-      background-color: hsl(224, 36%, 15%);
+      background-color: hsl(268, 71%, 12%);
       height: 100px;
       border-radius: 6px;
       display: flex;
@@ -94,7 +94,7 @@
   
   #div_3{
       height: 300px;
-      background-color: hsl(223, 31%, 20%);
+      background-color: hsl(268, 71%, 12%);
       border-radius: 6px;
       padding: 10px;
       display: flex;
@@ -114,10 +114,10 @@
   button{
       width: 70px;
       height: 45px;
-      background-color: hsl(30, 25%, 89%);
+      background-color: hsl(268, 47%, 21%);
       border: 0px;
       border-radius: 6px;
-      box-shadow: 0px 3px 1px 0px hsl(28, 16%, 65%);
+      box-shadow: 0px 3px 1px 0px hsl(290, 70%, 36%);
   }
   
   .big_btn{
@@ -130,8 +130,13 @@
   }
   
   #btn_del{
-      background-color: hsl(225, 21%, 49%);
-      box-shadow: 0px 3px 1px 0px hsl(224, 28%, 35%);
+      background-color: hsl(281, 89%, 26%);
+      box-shadow: 0px 3px 1px 0px hsl(285, 91%, 52%);
+  }
+
+  #btn_del:active{
+    box-shadow: 0px 0px 0px 0px hsla(177, 92%, 70%, 0%);
+    transform: translate(0px, 3px);
   }
   
   #btn_del > p{
@@ -140,19 +145,38 @@
   }
   
   #btn_reset{
-      background-color: hsl(225, 21%, 49%);
-      box-shadow: 0px 3px 1px 0px hsl(224, 28%, 35%);
+      background-color: hsl(281, 89%, 26%);
+      box-shadow: 0px 3px 1px 0px hsl(285, 91%, 52%);
+  }
+
+  #btn_reset:active{
+    box-shadow: 0px 0px 0px 0px hsla(177, 92%, 70%, 0%);
+    transform: translate(0px, 3px);
   }
   
   #btn_egal{
-      background-color: hsl(6, 63%, 50%);
-      box-shadow: 0px 3px 1px 0px hsl(6, 70%, 34%);
+      background-color: hsl(176, 100%, 44%);
+      box-shadow: 0px 3px 1px 0px hsl(177, 92%, 70%);
   
+  }
+
+  #btn_egal:active{
+    box-shadow: 0px 0px 0px 0px hsla(177, 92%, 70%, 0%);
+    transform: translate(0px, 3px);
+  }
+
+  #btn_egal > p{
+    color: hsl(198, 20%, 13%);
   }
   
   button > p{
       font-size: 25px;
-      color: hsl(223, 31%, 20%);
+      color: hsl(52, 100%, 62%);
       margin: 0px;
       margin-top: 5px;
+  }
+
+  button:active{
+    box-shadow: 0px 0px 0px 0px hsla(177, 92%, 70%, 0%);
+    transform: translate(0px, 3px);
   }

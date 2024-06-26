@@ -120,6 +120,11 @@ button{
     box-shadow: 0px 3px 1px 0px hsl(28, 16%, 65%);
 }
 
+button:active{
+    box-shadow: 0px 0px 0px 0px hsla(28, 16%, 65%, 0%);
+    transform: translate(0px, 3px);
+}
+
 .big_btn{
     width: 157px;
 }
@@ -134,6 +139,11 @@ button{
     box-shadow: 0px 3px 1px 0px hsl(224, 28%, 35%);
 }
 
+#btn_del:active{
+    box-shadow: 0px 0px 0px 0px hsla(28, 16%, 65%, 0%);
+    transform: translate(0px, 3px);
+}
+
 #btn_del > p{
     color: white;
     font-size: 20px;
@@ -144,10 +154,20 @@ button{
     box-shadow: 0px 3px 1px 0px hsl(224, 28%, 35%);
 }
 
+#btn_reset:active{
+    box-shadow: 0px 0px 0px 0px hsla(28, 16%, 65%, 0%);
+    transform: translate(0px, 3px);
+}
+
 #btn_egal{
     background-color: hsl(6, 63%, 50%);
     box-shadow: 0px 3px 1px 0px hsl(6, 70%, 34%);
 
+}
+
+#btn_egal:active{
+    box-shadow: 0px 0px 0px 0px hsla(28, 16%, 65%, 0%);
+    transform: translate(0px, 3px);
 }
 
 button > p{
